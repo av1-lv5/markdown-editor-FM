@@ -61,3 +61,24 @@ body {
   border: none;
 }
 
+
+[data-theme="dark"] ::selection {
+  background-color: rgba(228, 102, 67, 0.22);
+  color: #c1c4cb;
+}
+
+[data-theme="dark"] ::-moz-selection {
+  background-color: rgba(228, 102, 67, 0.22);
+  color: #c1c4cb;
+}
+
+[data-theme="light"] ::selection {
+  background-color: rgba(228, 102, 67, 0.18);
+  color: #35393f;
+}
+
+[data-theme="light"] ::-moz-selection {
+  background-color: rgba(228, 102, 67, 0.18);
+  color: #35393f;
+}
+
